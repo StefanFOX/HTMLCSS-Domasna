@@ -1,0 +1,40 @@
+.bluetext
+
+{
+       
+    background-color: rgb(243, 8, 8);
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: inherit;
+    
+
+
+}
+
+
+
+#greentext
+{
+
+    color: rgb(105, 45, 45);
+    background-color: #b4c4de;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: 450;
+    text-align: center;
+
+
+}
+
+.card
+{
+
+width:300px;
+height: 300px;
+
+margin: 10px auto;
+
+
+}
