@@ -1,0 +1,39 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: aquamarine;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-image-example {
+    background-image: url("IDS.jpg");
+    height: 450px ;
+    margin: 100px ;
+    border-radius: 50%;
+       
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#image-example{
+
+    background-image: url(https://www.adorama.com/idsdxdk128ga.html);
+}
+
+
+
+
+
+
+
+
