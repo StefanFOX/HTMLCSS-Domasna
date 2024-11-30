@@ -1,0 +1,40 @@
+.background-image-example {
+    background-image: url("pandev.webp");
+    height: 450px ;
+    width: 600px;
+    float: left;
+    
+
+}
+  
+
+  .text{
+    font-size: 40px;
+    padding: 150px;
+  }
+  #p{
+    font-size: 150px;
+    padding: 150px;
+  }
+
+  .fixed-box {
+    position: fixed;
+    background-color: rgb(254, 10, 10);
+    padding: 10px;
+    top: 0;
+    right: 100px;
+  }
+
+
+  nav {
+    background-color: rgb(235, 90, 11);
+    padding: 10px;
+    margin-bottom: 80px;
+  }
+
+  footer {
+    background-color: rgb(206, 84, 27);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
