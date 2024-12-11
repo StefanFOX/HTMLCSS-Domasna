@@ -17,12 +17,12 @@ body{
 
 
 .grid-container {
-    height: 600px;
+    /* height: 600px; */
     border: 1px solid black;
     display: grid;
     grid-template-columns: 200px 200px 200px;
     gap: 50px;
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(50px, auto);
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -34,50 +34,60 @@ body{
     border: 3px solid rgb(2, 25, 25);
     background-color: rgb(42, 51, 54);
     padding: 10px;
+    flex-wrap: wrap;
   }
   
   .grid-item-1 {
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
   
   .grid-item-2 {
        background-color: rgb(236, 218, 184);
+       flex-wrap: wrap;
     
   }
   
   .grid-item-3 {
     
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
   
   .grid-item-4 {
    
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
   
   .grid-item-5 {
    
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
 
   .grid-item-6 {
    
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
 
   .grid-item-7 {
   
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
 
   .grid-item-8 {
     
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
 
   .grid-item-9 {
     
     background-color: rgb(236, 218, 184);
+    flex-wrap: wrap;
   }
 
   .footer{
