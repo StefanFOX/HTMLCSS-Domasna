@@ -1,0 +1,93 @@
+body {
+   background-image: url(back.jpg);
+    font-family: "Times New Roman", Times, serif,red;
+    margin: 50px;
+   flex-wrap: wrap;
+  }
+  
+
+ 
+
+  .header{
+ background-color: rgb(51, 49, 49);
+ align-items: center;
+ padding: 50px;
+ text-align: center rgb(214, 181, 181);
+  }
+
+
+  .product-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(73, 78, 73);
+    padding: 10px;
+    width: 400px;
+  }
+  
+  .product img {
+    max-width: 100%;
+   border-radius: 10px;
+  }
+
+  .footer{
+    background-color: rgb(8, 233, 241);
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+     }
+
+
+     @keyframes slideInLeft {
+      from {
+        transform: translateX(900px);
+        
+      }
+      to {
+        transform: translateX(50px);
+      }
+    }
+    
+    .slideInLeft {
+      padding: 20px 50px;
+      animation: slideInLeft 5s ease-in;
+}
+
+
+
+
+
+
+.kocka {
+  width: 50px;
+  height: 50px;
+
+  transition-property: red;
+  transition-duration: 5s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(243, 20, 20);
+}
+
+.container:hover .kocka {
+  width: 400px;
+}
+
+.one {
+  background: rgb(55, 58, 58);
+  transition-timing-function: linear;
+  text-align: center;
+}
+
+
+  
